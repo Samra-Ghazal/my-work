@@ -1,0 +1,79 @@
+.overflow_main_dashboard {
+    overflow-x: auto !important;
+    background-color: #F8FAFC;
+}
+
+.bod_overflow
+{
+    overflow-y: hidden !important;
+}
+
+.bod_overflow
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.side_nav_main_1 {
+    height: 100vh;
+    width: 3%;
+    border-top: 2px solid rgb(240, 172, 38);
+    border-right: 2px solid rgb(240, 172, 38);
+    border-top-right-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.height_fiz_menu_active {
+    height: 4%;
+    background-color: rgb(240, 172, 38);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+    margin-top: 50%;
+}
+
+.height_fiz_menu {
+    margin-top: 50%;
+    color: rgb(240, 172, 38);
+    font-size: 100%;
+    margin-right: 10px;
+}
+
+.background_nav1_header {
+    background-color: #548DFF;
+}
+
+.side_nav_1_right {
+    width: 100%;
+}
+
+.margin_left_m3 {
+    margin-left: -60px;
+}
+
+.col6section {
+    color: white;
+}
+
+.background_sidenav_one {
+    background-color: rgb(248, 250, 252);
+    height: 92.5vh;
+    overflow-y: hidden !important;
+}
+
+.background_sidenav_two {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 6px;
+}
+
+.background_sidenav_two_t {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 6px;
+}
