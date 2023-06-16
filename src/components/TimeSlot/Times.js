@@ -87,7 +87,7 @@ const Times = (props) => {
                     />
 
                     {startTimeErrors ? (
-                      <div className="pb-3">
+                      <div>
                         {<p className="form-error">{startTimeErrors}</p>}
                       </div>
                     ) : (
@@ -129,9 +129,7 @@ const Times = (props) => {
                       }}
                     />
                     {endTimeErrors ? (
-                      <div className="pb-3">
-                        {<p className="form-error">{endTimeErrors}</p>}
-                      </div>
+                      <div>{<p className="form-error">{endTimeErrors}</p>}</div>
                     ) : null}
                   </div>
 
