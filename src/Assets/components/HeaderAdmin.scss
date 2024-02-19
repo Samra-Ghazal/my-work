@@ -1,0 +1,73 @@
+
+.border_bottom_header
+{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid lightgray;
+    border-style: dashed;
+    background-color: white;
+}
+
+// .img_width
+// {
+//     width: 80%;
+// }
+
+.font_header_admin
+{
+    font-size: 80%;
+    font-weight: 800;
+}
+
+
+.font_header_admin1
+{
+    font-size: 80%;
+    font-weight: 800;
+    color: #0575E6 !important;
+}
+
+.button_profile
+{
+    background-color: #EDECFF;
+    color: #3E50F7;
+    border-color: #EDECFF;
+}
+
+.dropdown_style
+{
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.263);
+    border-radius: 10px;
+    border: 1px dashed #0575E6;
+}
+
+.btn_style_dash
+{
+    border: 1px dashed #0575E6 !important;
+}
+
+.btn_style_dash:hover
+{
+    border: 1px dashed #0575E6 !important;
+    color: #0575E6 !important;
+}
+
+.btn_style_dash:focus
+{
+    border: 1px dashed #0575E6 !important;
+    color: #0575E6 !important;
+}
+
+
+
+@media screen and (max-width: 980px) 
+{
+
+    .img_width
+{
+    width: 30%;
+}
+
+
+  }

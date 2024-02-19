@@ -1,0 +1,35 @@
+@import "../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+.css-hyum1k-MuiToolbar-root
+{
+    background-color: $white !important;
+}
+
+.css-zxdg2z
+{padding: 0px !important;}
+
+.navlink_dashboard
+{
+    text-decoration: none;
+    
+}
+
+.navlink_color_dashboard
+{
+    color: #0575E6 !important;
+}
+
+.nav_sub_heading
+{
+    color: #0575E6 !important;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+}
+
+#menu_icon_style
+{
+    font-size: 19px;
+    color: gray !important;
+}

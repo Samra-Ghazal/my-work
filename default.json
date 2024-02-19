@@ -1,0 +1,230 @@
+{
+  "maxWidth": 1000,
+  "sections": [
+    {
+      "sectionTitle": "Personal Information",
+      "position": 0,
+      "containers": [
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 1,
+          "fields": [
+            {
+              "id": 5,
+              "fieldType": "string",
+              "fieldLabel": "First Name",
+              "title": "customerFirstName",
+              "columnName": "customerFirstName",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter First Name",
+              "regex": ".*[^A-Za-z ].*"
+            },
+            {
+              "id": 6,
+              "fieldType": "string",
+              "fieldLabel": "Last Name",
+              "title": "customerLastName",
+              "columnName": "customerLastName",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 1,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter Last Name",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        },
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 2,
+          "fields": [
+            {
+              "id": 7,
+              "fieldType": "string",
+              "fieldLabel": "Primary Email",
+              "title": "primaryEmail",
+              "columnName": "primaryEmail",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter Email Address",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        },
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 3,
+          "fields": [
+            {
+              "id": 8,
+              "fieldType": "string",
+              "fieldLabel": "Primary Mobile",
+              "title": "primaryMobile",
+              "columnName": "primaryMobile",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter Contact Number",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Additional Information",
+      "position": 1,
+      "containers": [
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 0,
+          "fields": [
+            {
+              "id": 21,
+              "fieldType": "string",
+              "fieldLabel": "Line 1",
+              "title": "addressLine1",
+              "columnName": "addressLine1",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter AddressLine1",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        },
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 1,
+          "fields": [
+            {
+              "id": 22,
+              "fieldType": "string",
+              "fieldLabel": "Line 2",
+              "title": "addressLine2",
+              "columnName": "addressLine2",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter AddressLine2",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        },
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 2,
+          "fields": [
+            {
+              "id": 23,
+              "fieldType": "string",
+              "fieldLabel": "City",
+              "title": "city",
+              "columnName": "city",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 0,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter city Name",
+              "regex": ".*[^A-Za-z ].*"
+            },
+            {
+              "id": 24,
+              "fieldType": "string",
+              "fieldLabel": "Postal Code",
+              "title": "postalCode",
+              "columnName": "postalCode",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 500,
+              "position": 1,
+              "options": [],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Enter PostalCode",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        },
+        {
+          "containerType": "oneField",
+          "containerDirection": "horizontal",
+          "contentAdjustment": "equalSpacing",
+          "position": 3,
+          "fields": [
+            {
+              "id": 25,
+              "fieldType": "dropdown",
+              "fieldLabel": "Country",
+              "title": "country",
+              "columnName": "country",
+              "isRequired": true,
+              "answer": "",
+              "minLimit": 4,
+              "maxLimit": 30,
+              "position": 0,
+              "options": [
+                {
+                  "optionId": 1,
+                  "optionName": "Pakistan"
+                },
+                {
+                  "optionId": 2,
+                  "optionName": "United Kingdom"
+                },
+                {
+                  "optionId": 3,
+                  "optionName": "United States"
+                }
+              ],
+              "allowsMultipleSelection": false,
+              "errorMessage": "Select your country",
+              "regex": ".*[^A-Za-z ].*"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Clip path group">
+<mask id="mask0_4940_4160" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="22">
+<g id="clip-path">
+<path id="Rectangle 12307" d="M20 0H0V22H20V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_4940_4160)">
+<g id="Mask Group 998">
+<path id="survey-line" d="M15 1V3H18.007C18.2703 3.00026 18.5227 3.10497 18.7089 3.29114C18.895 3.4773 18.9997 3.72972 19 3.993V20.007C18.9997 20.2703 18.895 20.5227 18.7089 20.7089C18.5227 20.895 18.2703 20.9997 18.007 21H1.993C1.72964 21 1.47707 20.8954 1.29084 20.7092C1.10462 20.5229 1 20.2704 1 20.007V3.993C1.00026 3.72972 1.10497 3.4773 1.29114 3.29114C1.4773 3.10497 1.72972 3.00026 1.993 3H5V1H15ZM5 5H3V19H17V5H15V7H5V5ZM7 15V17H5V15H7ZM7 12V14H5V12H7ZM7 9V11H5V9H7ZM13 3H7V5H13V3Z" fill="#DCDCDC"/>
+</g>
+</g>
+</g>
+</svg>

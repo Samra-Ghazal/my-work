@@ -1,0 +1,481 @@
+.dynamic_heading {
+  color: #aaa;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 6px;
+}
+
+.dynamic_formContainer {
+  width: 100%;
+  min-width: 800px;
+  /* max-width: 800px !important; */
+  /* padding-top: auto;
+  padding-bottom: auto; */
+  height: 100vh;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  /* margin: auto; */
+  overflow: auto;
+}
+
+.dynamic_formCompulsory{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  color: #6C6060;
+}
+
+.dynamic_formModal {
+  width: 100%;
+  height: 100%;
+  /* max-width: 750px; */
+  max-height: 84vh;
+  overflow: auto;
+  padding: 0 15px;
+  background-color: #fbfcff;
+}
+
+.dynamic_section {
+  border-radius: 8px 8px 8px 8px;
+  width: 100%;
+  border: 0.5px solid #dcdcdc;
+  color: #dcdcdc;
+}
+
+.dynamic_AddNewCustomer {
+  border-radius: 8px;
+  border: none;
+  background: #ffd705;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+  padding: 11px 100px;
+  color: black;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_sectionHeader {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #eaf2ff;
+  /* border-radius: 8px 8px 0px 0px;
+border: 0.5px solid #DCDCDC;
+background: rgba(85, 153, 255, 0.10); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #aeaeae;
+  /* height: 40px; */
+  padding: 5px 20px;
+  position: relative;
+}
+
+.dynamic_sectionHeaderMoreOption {
+  position: absolute;
+  top: 75%;
+  right: 2%;
+  border-radius: 8px;
+  border: 0.6px solid #5599ff;
+  background-color: #f8fafc;
+  color: black;
+  text-align: center;
+  /* padding: 2rem; */
+  z-index: 1;
+}
+
+.dynamic_sectionHeaderMoreOption div:hover {
+  background-color: #dee7ff;
+  border-radius: 8px;
+}
+
+.dynamic_sectionHeader input {
+  background-color: transparent;
+  width: 40%;
+  border-radius: 8px;
+  border: 0.4px solid #b5d3ff;
+  padding: 8px 10px 8px 10px;
+  color: #aeaeae;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_sectionContent {
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.dynamic_container {
+  position: relative;
+}
+
+.dynamic_isPreviewing {
+  margin: 5px 0;
+}
+
+.dynamic_plusButton {
+  height: 16px;
+  width: 16px;
+  background-color: #cde1ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dynamic_field {
+  border-radius: 8px;
+  border: 0.5px solid #dcdcdc;
+  background: #fff;
+  padding: 6px 15px;
+  color: #303030;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_createContainer {
+  width: 100%;
+  padding: 8px 50%;
+  border-radius: 8px;
+  border: 1px dashed #e9e9e9;
+  background-color: white;
+}
+
+.dynamic_createContainer div,
+.dynamic_containerPlus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dynamic_createContainer:hover {
+  border-color: #5599ff;
+  cursor: pointer;
+}
+
+.dynamic_createContainer:hover div{
+  background-color: #5599ff;
+  border-radius: 50%;
+}
+
+.dynamic_selectedFields {
+  border-radius: 8px;
+  border: 0.5px solid #dcdcdc;
+  background: #fff;
+  padding: 10px;
+}
+
+.dynamic_fieldSearchInput {
+  border-radius: 8px;
+  padding: 8px 15px;
+  border: 0.4px solid #dcdcdc;
+  background: #fafafa;
+  color: #6c6c6c;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_fieldSearchedValues {
+  padding: 8px 15px;
+  color: #6c6c6c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_divider {
+  background: #f2f2f2;
+  height: 0.5px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dynamic_fieldList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 12px 15px;
+  border: 0.5px solid #dcdcdc;
+  background: #fff;
+  color: #303030;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_isCheckedFieldList {
+  border-color: #5599ff;
+}
+
+.dynamic_fieldType {
+  color: #c0c0c0;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.dynamic_switch {
+  margin-left: 20px;
+  margin-right: 60px;
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+  padding: 0;
+}
+
+.dynamic_switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.dynamic_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.dynamic_slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 3px;
+  bottom: 4px;
+  top: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .dynamic_slider {
+  background-color: #55e374;
+}
+
+input:focus + .dynamic_slider {
+  box-shadow: 0 0 1px #55e374;
+}
+
+input:checked + .dynamic_slider:before {
+  -webkit-transform: translateX(11px);
+  -ms-transform: translateX(11px);
+  transform: translateX(11px);
+}
+
+/* Rounded dynamic_sliders */
+.dynamic_slider.dynamic_round {
+  border-radius: 20px;
+}
+
+.dynamic_slider.dynamic_round:before {
+  border-radius: 50%;
+}
+
+.dynamic_checkbox {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.dynamic_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.dynamic_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.dynamic_checkbox:hover input ~ .dynamic_checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.dynamic_checkbox input:checked ~ .dynamic_checkmark {
+  background-color: #548dff;
+}
+
+/* Create the dynamic_checkmark/indicator (hidden when not checked) */
+.dynamic_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the dynamic_checkmark when checked */
+.dynamic_checkbox input:checked ~ .dynamic_checkmark:after {
+  display: block;
+}
+
+/* Style the dynamic_checkmark/indicator */
+.dynamic_checkbox .dynamic_checkmark:after {
+  left: 5.5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.dynamic_blueButton {
+  border-radius: 8px;
+  border: none;
+  background: #548dff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+  padding: 11px 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dynamic_blueButton:hover {
+  background-color: #4e82ec;
+}
+
+.dynamicDropDown_style {
+  
+}
+
+.dynamic_borderButton {
+  border-radius: 8px;
+  border: 1px solid #548dff;
+  background: #fff;
+  /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16); */
+  color: #548dff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.dynamic_borderButton:hover {
+  background-color: #eff6ff;
+}
+
+.dynamic_createContainerLine {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dynamic_containerDivider,
+.dynamic_containerPlus {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.dynamic_containerDivider {
+  border: 1px dashed #e9e9e9;
+}
+
+.dynamic_createContainerLine:hover .dynamic_containerDivider,
+.dynamic_createContainerLine:hover .dynamic_containerPlus {
+  border-color: #5599ff;
+  background-color: #5599ff;
+}
+
+.dynamic_containerPlus:hover,
+.dynamic_createContainerLine:hover .dynamic_containerPlus {
+  background-color: #5599ff;
+}
+
+.dynamic_containerDivider:hover,
+.dynamic_createContainerLine:hover .dynamic_containerDivider {
+  border-color: #5599ff;
+}
+
+
+/* .dynamic_containerDivider {
+  border: 1px dashed #e9e9e9;
+} */
+
+.dynamic_leftOneDivider {
+  width: 51%;
+}
+
+.dynamic_rightOneDivider {
+  width: 49%;
+}
+
+/* .dynamic_containerDivider:hover, .dynamic_containerPlus:hover {
+  border-color: #5599ff;
+  background-color: #5599ff;
+  cursor: pointer;
+} */
+
+/* .dynamic_containerPlus:hover {
+  background-color: #5599ff;
+  cursor: pointer;
+} */
+
+.widthThirtyThree {
+  width: 33.33%;
+}
+
+.backgroundDisabled {
+  background-color: #e9e9e9;
+}
+
+.marginRightSixPx {
+  margin-right: 6px;
+}

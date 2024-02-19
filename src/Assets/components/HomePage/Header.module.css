@@ -1,0 +1,262 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 2rem; */
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  /* top: 2%; */
+  width: 95%;
+  z-index: 999999;
+  width: 100%;
+  height: 7vh;
+}
+.headerSignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.headerSignup p {
+  color: #115a8e;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.navBarItems {
+  display: flex;
+  justify-content: center;
+}
+.navBarItems a {
+  color: #8d8d8d;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* a::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+} */
+
+a::after {
+  position: absolute;
+  content: "";
+  width: 0.8rem;
+  height: 3px;
+  top: 90%;
+  left: 30%;
+  background: #548dff;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.active::after {
+  transform: scaleX(1);
+}
+
+.active {
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+.navBarItems {
+  margin-right: 2rem;
+}
+.navBarItems p {
+  margin: 0;
+  padding: 0;
+}
+.logoContainer {
+  width: 9rem;
+  margin-left: 4rem;
+}
+
+.logoContainer img {
+  width: 70%;
+}
+.headerSignup img {
+  width: 1.5rem;
+  margin-top: -1rem;
+  margin-left: 0.6rem;
+}
+.mobileMenuContainer {
+  display: none;
+}
+
+.productsMenu {
+  position: relative;
+}
+.productsList {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: -10%;
+  width: 11.875rem;
+  height: 11rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0px 0px 6px 0px rgba(23, 23, 23, 0.25);
+}
+.verticalLine {
+  width: 0.1rem;
+  height: 1.5rem;
+  stroke-width: 1px;
+  background: #cecece;
+}
+
+.loginBtn {
+  color: #548dff !important;
+  font-weight: 500 !important;
+}
+
+.registerBtn {
+  width: 6.8rem;
+  height: 2rem;
+  border-radius: 0.3125rem;
+  background: #548dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+.subMenuItem {
+  display: flex;
+  align-items: center;
+  margin: 0.6rem 0.8rem;
+}
+
+.subMenuItem img {
+  width: 1rem;
+}
+.subMenuItem a {
+  color: #6b6b6b;
+  font-family: Roboto;
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.4rem;
+}
+.hrLine {
+  width: 80%;
+  border: 0.5 solid black;
+  margin: 0.1rem auto;
+}
+.mobileMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .headerContainer {
+    display: none;
+  }
+  .mobileMenu {
+    width: 100%;
+    height: 3.125rem;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.6rem;
+  }
+  .mobileMenu img {
+    width: 55%;
+  }
+
+  .mobileMenuExpand {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    z-index: 99999999999 !important;
+  }
+  .mobileIcon {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+  }
+  .mobileMenuExpand img {
+    width: 55%;
+  }
+  .userDetail {
+    width: 100%;
+    height: 7.5625rem;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .closeIcon {
+    position: absolute;
+    right: 2%;
+    top: 4%;
+  }
+  .userDetail img {
+    width: 3.4rem;
+  }
+  .menuItemsList a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 2.2em 2rem;
+  }
+  .menuItemsList p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+  }
+  .accordionSpacing {
+    margin: -1.5rem 0rem;
+  }
+  .loginBtn {
+    width: 12.5rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    background: #4294ff;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40vh;
+  }
+  .loginBtn p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 186.667% */
+  }
+  .imgIcons {
+  }
+}

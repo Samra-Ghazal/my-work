@@ -1,0 +1,242 @@
+.overflow_main_dashboard {
+    overflow-x: auto !important;
+    background-color: #F8FAFC;
+}
+
+
+
+.link-active {
+    color: red;
+    background-color: #FFD705;
+
+}
+
+.link-active:hover {
+    color: white;
+    background-color: #FFD705;
+
+}
+
+.link-white {
+    color: #FFD705;
+}
+
+.link-white:hover {
+    color: #FFD705;
+
+}
+
+
+
+.height_fiz_menu_active {
+    height: 2%;
+    background-color: #FFD705;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: white;
+    margin-top: 10%;
+}
+
+.height_fiz_menu {
+    // margin-top: 10%;
+    color: #FFD705;
+    font-size: 100%;
+    margin-right: 10px;
+}
+.sidebar-title{
+  font-size: 12px;
+  // font-family: 'circular';
+  font-family: "Roboto";
+  margin: 2px 2px 2px 10px;
+  color:#5C5C5C
+  // opacity: 0;
+  // transition: opacity 0.3s;
+}
+
+.background_nav1_header {
+    background-color: #548DFF;
+}
+
+.side_nav_1_right {
+    width: 100%;
+    height:87.5vh;
+    overflow: auto;
+    
+}
+
+.margin_left_m3 {
+    margin-left: -60px;
+}
+
+.col6section {
+    color: white;
+}
+
+// .background_sidenav_one {
+//     background-color: #FBFCFF;
+//     height: 96vh;
+//     overflow-y: auto !important;
+// }
+
+.background_sidenav_two {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 6px;
+}
+
+.background_sidenav_two_t {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 6px;
+}
+
+.height_fiz_menu a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.inv_active_menu {
+    background-color: #FFD705 !important;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: black;
+    padding-left: 10px;
+
+}
+.inv_inactive_menu {
+
+  padding-left: 10px;
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                        Selected Business From Header                       */
+/* -------------------------------------------------------------------------- */
+
+.makeRelative {
+    position: relative;
+  }
+  
+  .marginFromSearch {
+    margin: "4% 0 0 0";
+  }
+  
+  .searchDivPadding {
+    padding: "3.6% 0";
+  }
+  
+  .searchDiv {
+    border: "1px solid #59F";
+    background-color: "#FFFFFF";
+    border-radius: "0.375rem";
+    margin: "0 4.12% 0 4.12%";
+    padding: "0 0.188rem 0 0.75rem";
+  }
+  
+  .searchInput {
+    border: "none";
+    font-size: "0.625rem";
+    color: "#AAA";
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "1.8rem";
+  }
+  
+  .addBusinessButton {
+    border: "1px solid #D9DEEC";
+    border-radius: "0.938rem";
+    margin-top: "2.6%";
+    height: "4.9%";
+    padding: "1.5rem 1.25rem ";
+  }
+  
+  .addBusinessButtonFont {
+    color: "#000";
+    font-size: "1rem";
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "1.8rem";
+  }
+  
+  .absoluteToCross {
+    position: "absolute";
+    top: "0";
+    right: "0";
+    cursor: "pointer";
+  }
+  
+  .selectedBusinessIdFont {
+    color: "#FFF";
+    font-size: "16px";
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "normal";
+  }
+  
+  .selectedBusinessNameFont {
+    color: "#FFF";
+    font-size: "20px";
+    font-style: "normal";
+    font-weight: 600;
+    line-height: "normal";
+  }
+  
+  .selectedBusinessBack {
+    height: "9.6%";
+    background-color: "#5599FF";
+    border-radius: "0.938rem";
+    display: "flex";
+    align-items: "center";
+  }
+  
+  .allBusiness {
+    height: "89.5%";
+    border: "1px solid #5599FF";
+    border-radius: "0.938rem";
+  }
+  
+  .buttonInHeader {
+    position: "absolute";
+    top: "90%";
+    right: "-70%";
+    z-index: 10000000000000;
+    height: "95.8vh";
+    // maxWidth: "23%",
+    width: "26.3vw";
+    overflow: "auto";
+    background-color: "white";
+    border-radius: 0;
+  }
+  
+  .businessNameFont {
+    color: "#000";
+    font-size: "1.125rem";
+    font-style: "normal";
+    font-weight: 500;
+    line-height: "1.8rem";
+  }
+  
+  .businessDesignationFont {
+    color: "#838383";
+    font-size: "0.75rem";
+    font-style: "normal";
+    font-weight: 400;
+    line-height: "0.8rem";
+  }
+  
+  .businessBack{
+      background-color: white;
+      margin-bottom: "0.5rem";
+            padding-top: "0.5rem";
+            padding-bottom: "0.5rem";
+            padding-right: "1rem";
+  }
+  
+  .selectedBusinessBackColor{
+      background-color: #E0EDFF !important;
+  }
+  
+

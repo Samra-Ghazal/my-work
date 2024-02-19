@@ -1,0 +1,54 @@
+.imageinput_container {
+    height: 130px;
+    width: 130px;
+    background-color: #FFF;
+    border: 1px solid #5599FF;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageinput_uploadImage {
+    padding-top: 10px;
+    color: #616161;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.imageinput_pixels {
+    padding-top: 4px;
+    color: #A4A4A4;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.imageinput_preview {
+    height: 130px;
+    width: 130px;
+    border: 1px solid #5599FF;
+    border-radius: 10px;
+    /* margin-right: 10px; */
+    position: relative;
+}
+
+.imageInput_button {
+    z-index: 10000;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0.7px;
+    right: 0.7px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: x-small;
+}

@@ -1,0 +1,51 @@
+.overflow_calender {
+    overflow-y: scroll;
+    // height: 71.8vh;
+    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+//   padding-bottom: 120px
+}
+
+.height_for_booking {
+    height: 76vh !important;
+    border: 1px solid rgb(229, 228, 228);
+    border-radius: 10px;
+}
+
+.height_for_calendar {
+    height: 93vh !important;
+}
+
+
+
+.overflow_calender::-webkit-scrollbar {
+    display: none; /* WebKit (Chrome, Safari, etc.) */
+  }
+  
+
+// .overflow_calender::-webkit-scrollbar {
+//     display: none;
+// }
+
+.height_fixed_cal {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    height: 5px;
+    background-color: #FFBF00;
+}

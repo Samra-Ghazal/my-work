@@ -1,0 +1,133 @@
+.img_size_cal {
+    width: 32px;
+}
+
+.img_size_cal_menu {
+    width: 18px;
+    cursor: pointer;
+}
+
+.icon_after {
+    /* Hide the default dropdown arrow */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    /* Add a custom icon */
+    background-image: url('https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png');
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    padding-right: 5px;
+    /* Adjust the padding to your preference */
+    padding-left: 10px;
+    /* Adjust the padding to your preference */
+    border: 1px solid #ccc;
+    /* Optional: Add a border for visual distinction */
+
+    /* Add a background color */
+    background-color: red;
+    /* Replace with your desired background color */
+    color: white;
+    /* Optional: Adjust the text color for better contrast */
+
+
+}
+
+.overflow_stop_sll_pages::-webkit-scrollbar {
+    display: none !important;
+}
+
+.bod_overflow {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.bod_overflow::-webkit-scrollbar {
+    display: none !important;
+}
+
+.img_size_cal_menu1 {
+    width: 15px;
+    cursor: pointer;
+}
+
+.img_size_cal_menu2 {
+    width: 20px;
+    cursor: pointer;
+}
+
+.flex_in_calendex_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex_in_calendex_bar1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.hr_style {
+    background: #f3f3f3;
+    width: 20px;
+    height: 1px;
+    padding-left: 18px,
+}
+
+.button_styling {
+    color: #530;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 6px !important;
+    background-color: #FFD705 !important;
+    line-height: 15px;
+}
+
+.staff_prof_font {
+    color: #424242;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.8px;
+    /* 180% */
+}
+
+.styling_remove_link_tag {
+    text-decoration: none;
+    color: black;
+}
+
+.width_profile_header {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+.second_nav {
+    border-bottom: 1px solid #E4E4E4;
+}
+.hide{
+    visibility: visible;
+
+}
+.side_menu_btn {
+    visibility: hidden;
+}
+
+@media (max-width: 500px) {
+    .side_menu_btn {
+        visibility: visible;
+    }
+    .hide{
+        display: none;
+
+    }
+}

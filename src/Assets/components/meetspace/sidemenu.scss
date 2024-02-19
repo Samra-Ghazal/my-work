@@ -1,0 +1,101 @@
+.overflow_main_dashboard {
+    overflow-x: auto !important;
+    background-color: red;
+}
+
+
+.bod_overflow {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden !important;
+
+}
+
+.link-active {
+    color: red;
+    background-color: #548dff !important;
+
+}
+
+.link-active:hover {
+    color: white;
+    background-color: #548dff !important;
+
+}
+
+.link-white {
+    color: #548dff !important;
+}
+
+.link-white:hover {
+    color: #548dff !important;
+
+}
+
+
+  
+
+
+
+.background_nav1_header {
+    background-color: #548DFF;
+}
+
+.side_nav_1_right {
+    width: 100%;
+}
+
+.margin_left_m3 {
+    margin-left: -60px;
+}
+
+.col6section {
+    color: white;
+}
+
+// .background_sidenav_one {
+//     background-color: #fbfcff;
+//     height: 92.5vh;
+//     overflow-y: hidden !important;
+// }
+
+.background_sidenav_two {
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 6px;
+}
+
+.background_sidenav_two_t {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 6px;
+}
+
+
+
+
+
+// Checkbox style
+.form-check-input[type="checkbox"] {
+    border: 1px solid lightgray !important;
+    width:"20px";
+    height:"20px"
+}
+
+.form-check-input[type="checkbox"]:checked {
+    background-color: #548dff !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    width:"20px";
+    height:"20px"
+}
+
+.css-g0ek6u-MuiSvgIcon-root {
+    color: #548dff !important;
+}
+
+
+

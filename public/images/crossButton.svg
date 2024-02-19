@@ -1,0 +1,30 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="21" height="21" fill="#F5F5F5"/>
+<g id="Frame 30549" clip-path="url(#clip0_0_1)">
+<mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1254" y="-508" width="1366" height="3349">
+<g id="clip-_7_2">
+<path id="Vector" d="M112 -508H-1254V2840.3H112V-508Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_0_1)">
+<path id="Vector_2" d="M112 -508H-1254V1976H112V-508Z" fill="white"/>
+<path id="Rectangle 2" d="M153 -469H-1213V2011H153V-469Z" fill="#FBFCFF"/>
+<g id="Group 515485">
+<g id="Group 29044">
+</g>
+</g>
+</g>
+<g id="Layer_1" clip-path="url(#clip1_0_1)">
+<path id="Vector_3" d="M13.8533 0.603516H7.14294C3.53024 0.603516 0.601562 3.53219 0.601562 7.1449V13.8552C0.601562 17.4679 3.53024 20.3966 7.14294 20.3966H13.8533C17.466 20.3966 20.3947 17.4679 20.3947 13.8552V7.1449C20.3947 3.53219 17.466 0.603516 13.8533 0.603516Z" stroke="#EC1E27" stroke-width="1.6" stroke-miterlimit="10"/>
+<path id="Vector_4" d="M14.2694 13.4531L11.2995 10.4832L14.2523 7.53043L13.4501 6.72823L10.4973 9.68101L7.54456 6.72823L6.74236 7.53043L9.69514 10.4832L6.7253 13.4531L7.5275 14.2553L10.4973 11.2854L13.4672 14.2553L14.2694 13.4531Z" fill="#EC1E27"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1366" height="2484" fill="white" transform="translate(-1254 -508)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="21" height="21" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,71 @@
+.overflow_main_dashboard {
+  overflow-x: auto !important;
+  background-color: #f8fafc;
+}
+
+
+
+.link-active {
+  color: red;
+  background-color: #FFD705;
+}
+
+.link-active:hover {
+  color: white;
+  background-color: #FFD705;
+}
+
+.link-white {
+  color: #FFD705;
+}
+
+.link-white:hover {
+  color: #FFD705;
+}
+
+
+
+
+
+
+
+.background_nav1_header {
+  background-color: #548dff;
+  height: 2.5rem;
+}
+
+.margin_left_m3 {
+  margin-left: -60px;
+}
+
+.col6section {
+  color: white;
+}
+
+.background_sidenav_one {
+  background-color: rgb(248, 250, 252);
+  height: 96vh;
+  overflow-y: hidden !important;
+  padding-left: 2%;
+}
+
+.background_sidenav_two {
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 6px;
+}
+
+.background_sidenav_two_t {
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 6px;
+}
+
+
+@media (max-width: 1200px) {
+  .background_sidenav_one{
+    padding-left: 0,
+  }
+}

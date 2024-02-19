@@ -1,0 +1,45 @@
+.buttondesign{
+    background-color:#ffbf00 !important;
+    padding: 1px 10px !important;
+    }
+.dropDown{
+    padding: 1px 10px !important;
+}
+.bg_dark{
+    background-color: #cccccc !important;
+    border-radius: 4px !important;
+}
+
+.secondary_fonts{
+    font-size: 14px;
+    font-weight: 600;
+    color: #808080;
+}
+
+.bg_light{
+    background-color: #ececec !important;
+    border-radius: 4px !important;
+}
+
+.primary_fonts{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f0f0f;
+}
+
+.card_shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}.dropdown-toggle::after{
+    display: none;
+}
+
+.inputField{
+   border: none;
+}
+.inputField:focus {
+    outline: none;
+  }
+
+  .bgNone{
+    background-color: none !important;
+  }

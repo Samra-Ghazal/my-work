@@ -1,51 +1,72 @@
-import { Route, Routes } from "react-router-dom";
-import React, { Suspense, lazy, useEffect, useState } from "react";
-import HashLoader from "react-spinners/HashLoader";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import "./App.scss";
-import { SelectedDateContext } from "./context";
-import { SuspenseLoading } from "./helper";
+import React, { Suspense, useState } from "react";
+import { Route, Switch } from "react-router-dom";
+import "./App.css";
 
-const CalenderPage = lazy(() => import("./pages/Calender"));
-const TimeSlotPage = lazy(() => import("./pages/TimeSlot"));
+import routes from "./Routes/AllRoutes";
+import { PublicRoute } from "./Routes/PublicRoute";
+import LoadingScreen from "./Shared/HelperMethods/LoadingScreen";
+import Layout from "./Pages/Layout";
+// import CustomizedSnackbars from "./Calendar/scheduler/components/AlertToast";
+// import { EntityContext, SelectedDateContext } from "./context";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import ErrorBoundary from "./ErrorBoundry";
 
-const App = () => {
-  const [loading, setLoading] = useState(false);
+function withLayout(WrappedComponent) {
+  return class extends React.Component {
+    render() {
+      return (
+        <>
+          <Layout>
+            <WrappedComponent></WrappedComponent>
+          </Layout>
+        </>
+      );
+    }
+  };
+}
+
+function RouteProgress(props) {
+  return <Route {...props} />;
+}
+
+function App() {
   const [value, setValue] = useState([]);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
+  const [entity, setEntity] = useState([]);
   return (
-    <>
-      <SelectedDateContext.Provider value={[value, setValue]}>
-        <ToastContainer
-          position="top-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          theme="light"
-          pauseOnHover
-        />
-        <div className="App">
-          <Suspense fallback={<SuspenseLoading />}>
-            <Routes>
-              <Route path="/" exact element={<CalenderPage />} />
-              <Route path="/timeSlot" element={<TimeSlotPage />} />
-            </Routes>
-          </Suspense>
-        </div>
-      </SelectedDateContext.Provider>
-    </>
+    <ErrorBoundary>
+      <React.Fragment>
+        {/* <SelectedDateContext.Provider value={[value, setValue]}> */}
+        {/* <EntityContext.Provider value={[entity, setEntity]}> */}
+        <GoogleReCaptchaProvider
+          className="grecaptcha-badge"
+          reCaptchaKey={process.env.REACT_APP_GOOGLE_RECAPTCHA_KEY}
+        >
+          <div className="">
+            <Suspense fallback={<LoadingScreen />}>
+              <Switch>
+                {routes.map((route, i) => {
+                  const Component = route.component;
+                  return (
+                    <RouteProgress
+                      key={i}
+                      path={route.path}
+                      exact={route.exact}
+                      render={(props) => (
+                        <PublicRoute props={props} Component={Component} />
+                      )}
+                    />
+                  );
+                })}
+              </Switch>
+            </Suspense>
+          </div>
+        </GoogleReCaptchaProvider>
+        {/* </EntityContext.Provider>
+        </SelectedDateContext.Provider> */}
+        {/* <CustomizedSnackbars /> */}
+      </React.Fragment>
+    </ErrorBoundary>
   );
-};
+}
 
 export default App;

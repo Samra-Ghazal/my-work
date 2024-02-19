@@ -1,0 +1,34 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="21" height="21" fill="#1E1E1E"/>
+<g id="Frame 515860" clip-path="url(#clip0_3_2)">
+<mask id="mask0_3_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-600" y="-445" width="1366" height="2531">
+<g id="clip-_7_2">
+<path id="Vector" d="M766 -445H-600V2086H766V-445Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_3_2)">
+<path id="Vector_2" d="M766 -445H-600V2086H766V-445Z" fill="#F8F8F8"/>
+<path id="Rectangle 2" d="M766 -476H-600V1955H766V-476Z" fill="#F8F8F8"/>
+<g id="Rectangle 440">
+<path id="Vector_3" d="M418.461 -318H-252.461C-256.072 -318 -259 -314.665 -259 -310.551V290.551C-259 294.665 -256.072 298 -252.461 298H418.461C422.072 298 425 294.665 425 290.551V-310.551C425 -314.665 422.072 -318 418.461 -318Z" fill="white"/>
+<path id="Vector_4" d="M418.463 -317.852H-252.459C-255.998 -317.852 -258.867 -314.583 -258.867 -310.552V290.551C-258.867 294.582 -255.998 297.85 -252.459 297.85H418.463C422.002 297.85 424.871 294.582 424.871 290.551V-310.552C424.871 -314.583 422.002 -317.852 418.463 -317.852Z" stroke="#DCDCDC" stroke-width="0.4"/>
+</g>
+<g id="Frame 515648">
+<g id="Group 515677">
+<g id="Layer_1" clip-path="url(#clip1_3_2)">
+<path id="Vector_5" d="M13.8533 0.601562H7.14294C3.53024 0.601562 0.601562 3.53024 0.601562 7.14294V13.8533C0.601562 17.466 3.53024 20.3947 7.14294 20.3947H13.8533C17.466 20.3947 20.3947 17.466 20.3947 13.8533V7.14294C20.3947 3.53024 17.466 0.601562 13.8533 0.601562Z" stroke="#5599FF" stroke-width="1.6" stroke-miterlimit="10"/>
+<path id="Vector_6" d="M14.59 6L8 12.59L5.41 10.01L4 11.42L8 15.42L16 7.42L14.59 6Z" fill="#5599FF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3_2">
+<rect width="1366" height="940" fill="white" transform="translate(-600 -445)"/>
+</clipPath>
+<clipPath id="clip1_3_2">
+<rect width="21" height="21" fill="white"/>
+</clipPath>
+</defs>
+</svg>

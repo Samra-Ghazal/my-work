@@ -1,0 +1,58 @@
+.day_name_col {
+    pointer-events: none;
+}
+
+.day_name_col input {
+    border: 1px solid lightgray;
+}
+
+.add_schedule_theme {
+    background-color: #f5bf00;
+    color: white;
+}
+
+.add_schedule_theme:hover {
+    background-color: #d7a902;
+}
+
+.cancel_schedule_theme {
+    color: #f5bf00;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    color: #f5bf00 !important;
+    font-size: 30px;
+}
+
+.schedular_modal::-webkit-scrollbar {
+    display: none;
+}
+
+.css-92nr1f-MuiButtonBase-root-MuiIconButton-root,
+.css-1s220mh-MuiButtonBase-root-MuiIconButton-root,
+.css-7lip4c,
+.css-118whkv,
+.css-12ha4i7,
+.css-a1rc6s {
+    background-color: #f5bf00 !important;
+}
+
+.css-118whkv {
+    // border: 16px solid #f5bf00 !important;
+}
+
+.css-1h9354c-MuiClockPicker-arrowSwticher {
+    right: 2px !important;
+    top: 1px !important;
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to fill the entire viewport */
+  }
+  
+  /* Style for CircularProgress component */
+  .MuiCircularProgress-root {
+    color: #5599FF; /* Change the loader color if needed */
+  }

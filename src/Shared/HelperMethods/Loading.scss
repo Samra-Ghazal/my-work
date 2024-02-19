@@ -1,0 +1,22 @@
+.loading_screen
+{
+    width: 20%;
+}
+
+.padding_top
+{
+    padding-top: 15%;
+}
+
+@media screen and (max-width: 480px) {
+    .padding_top
+    {
+        padding-top: 85%;
+    }
+    .loading_screen
+{
+    width: 40%;
+}
+    
+ 
+   }

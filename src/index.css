@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+  color:grey !important;
+  border-radius: 100px !important;
+  padding: 4px !important;
+}
+
+.css-1db085k-MuiSvgIcon-root{
+  color:grey !important;
+  background-color: white !important;
+  border-radius: 100px !important;
+  padding: 4px !important;
+}
+ .rbc-row-content {
+  display: none !important;
+}
+/*.rbc-btn-group{
+  display: none !important;
+} */
+.rbc-toolbar-label{
+  font-weight: 600;
+  text-align: start;
+  padding: 2;
+  color: #5599FF;
+}
+.rbc-time-view{
+  border: none !important;
+}
+.rbc-time-header-content{
+  border: none !important;
+}
+.rbc-time-header-content > .rbc-row.rbc-row-resource{
+  border-bottom: 0 !important;
+
+}
+.rbc-time-content > * + * > *{
+  border-left: 0 !important;
+}
+/* .rbc-toolbar{
+  display: none !important;
+} */
+.rbc-timeslot-group{
+  min-height: 100px !important;
+}
+.rbc-time-slot{
+  height: 100%;
+
+}
+.rbc-event{
+  border:4px solid white !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.rbc-label{
+  display: flex;
+  text-align: center !important;
+  min-width: 85px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  margin-top: -7px !important;
+}
+.rbc-events-container{
+  min-width: 285px !important;
+  margin-right: 2px !important;
+  border-right:0.2px solid #666666 !important
+}
+.rbc-header{
+  height: auto !important;
+  color: #5599FF;
+  font-size: 20px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.rbc-event-label{
+  font-weight: 700;
+  display: none !important;
+}
+.rbc-event{
+  font-weight: 600;
+}
+.rbc-time-view-resources .rbc-header, .rbc-time-view-resources .rbc-day-bg{
+  width: 285px !important;
+}
+.rbc-time-content > .rbc-day-slot{
+  min-width: 285px !important;
+}
+
+.rbc-time-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.rbc-time-content::-webkit-scrollbar
+{
+	width: 5px;
+  display: hide !important;
+	background-color: #F5F5F5;
+}
+.rbc-time-content::-webkit-scrollbar-thumb
+{
+	background-color: #5599FF;
+	border-radius: 10px;
+	/* background-image: -webkit-linear-gradient(0deg,
+	                                          rgba(255, 255, 255, 0.8) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, 0.8) 50%,
+											  rgba(255, 255, 255, 0.8) 75%,
+											  transparent 75%,
+											  transparent) */
+}
+.rbc-today{
+background-color: transparent !important;
+}
+.react-datepicker-wrapper{
+  width: 40px !important;
+  margin-left:-40px !important
+}
+.react-datepicker__input-container input{
+
+  text-align: center !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+width: 100% !important;
+}
+.react-datepicker__triangle{
+  left: 40px !important;
+}
+.rbc-toolbar button{
+  border: none !important;
+font-weight: 500 !important;
+}
+.rbc-active{
+  background-color: #5599FF !important;
+  color: white !important;
+}
+.rbc-btn-group button:hover{
+  background-color: rgb(107, 107, 107);
+}
+.react-datepicker-popper{
+  z-index: 99 !important;
+  inset:0px auto auto -51px !important
+}
+.rbc-month-view {
+  height: 100vh !important;
+}
+/* .rbc-current-time-indicator{
+  background-color: #ffffff !important;
+  border: 1px solid #FE0000 !important;
+  border-radius: 100px ;
+  z-index: 99999999999999 !important;
+} */
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root{
+  padding: 0 !important;
+}
+/* .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: #5599FF !important;
+} */
+.css-1aquho2-MuiTabs-indicator{
+  background-color: #5599FF !important;
+}
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+  display: none !important;
+}
+.css-74e2me-MuiInputBase-root-MuiInput-root-MuiSelect-root:before{
+  border: none !important;
+}
+.css-13xfq8m-MuiTabPanel-root{
+  padding: 0px !important;
+}
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input{
+  display: flex;
+  align-items: center;
+}
+.css-19khbc0-MuiInputBase-root-MuiInput-root-MuiSelect-root:before{
+  display: none !important;
+}
+/* .css-l4u8b9-MuiInputBase-root-MuiInput-root:before{
+  display: none !important;
+} */
+.rbc-time-header.rbc-overflowing{
+  border: none !important;
+}
+.rbc-time-view-resources .rbc-time-gutter, .rbc-time-view-resources .rbc-time-header-gutter{
+  border: none !important;
+}
+.rbc-time-content{
+  border: none !important;
+}
+.rbc-time-content > .rbc-time-gutter{
+  border-right: 1px solid #ddd !important ;
+}
+.rbc-event{
+  border-radius: 12px !important;
+}
+.rbc-timeslot-group{
+  border: none !important;
+}
+.rbc-day-slot .rbc-time-slot{
+  border-top:1px solid  #e3e3e3 !important;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after{
+  display: none !important;
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before{
+  display: none !important;
+}
+
+  .pt1 {
+     background-color: #343a40 !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000) !important;
+  }
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 3.2px 8px !important;
+  }
+  /* .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    left:-35px !important;
+    top:14px !important
+  } */

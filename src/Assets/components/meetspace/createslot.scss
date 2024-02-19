@@ -1,0 +1,165 @@
+.invite_row {
+    height: 500px;
+}
+
+.one2one_section {
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    background-color: white;
+}
+
+.group_section {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.one2one_section img,
+.group_section img {
+    height: 220px;
+    width: auto;
+}
+
+.invite_container {
+    height: auto;
+    margin-top: 50px;
+}
+
+.invite_row button {
+    background-color: #548dff !important;
+    color: white;
+}
+
+.invite_row button:hover {
+    background-color: rgb(29, 101, 244) !important;
+    color: white;
+}
+
+._3uApM {
+    justify-content: end !important;
+}
+
+._3uApM a {
+    text-decoration: none !important;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+._hsN1w {
+    background-color: #548dff !important;
+}
+
+._hsN1w:hover {
+    background-color: rgb(29, 101, 244) !important;
+}
+
+._2Jtxm._35Ago ._2kL0S {
+    background-color: #548dff !important;
+}
+
+// Create Slot Form
+.slot_form_container {
+    margin-top: 50px;
+}
+
+.slot_form_row .input_wrapper {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    height: 62px;
+}
+
+.slot_form_row .labeless_input {
+    height: 62px;
+}
+
+.slot_form_row .input_wrapper input {
+    border-bottom: 3px solid white !important;
+}
+
+.slot_form_row .input_wrapper input:focus {
+    border-bottom: 3px solid #548dff !important;
+}
+
+.slot_form_row .blue_theme {
+    color: #548dff !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: white;
+}
+
+.slot_form_row .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #548dff !important;
+    border-width: 2px
+}
+
+.slot_form_row .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: none;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input:focus {
+    height: 100%;
+}
+
+._2Jtxm ._1hzhf {
+    top: -90%;
+}
+
+.add_breaks_btn {
+    height: 32px;
+    width: 32px;
+    border-radius: 7px;
+    background-color: #2b6ff8;
+    color: white;
+}
+
+.add_breaks_btn:hover {
+    height: 32px;
+    width: 32px;
+    border-radius: 7px;
+    background-color: #548dff;
+    color: white;
+}
+
+.delete_breaks_btn {
+    height: 32px;
+    width: 32px;
+    border-radius: 7px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete_breaks_btn:hover {
+    height: 32px;
+    width: 32px;
+    border-radius: 7px;
+    background-color: #c61e2f;
+    color: white;
+}
+
+.multistep_container_outer{
+    max-height: 93vh;
+    overflow: scroll;
+    padding-bottom: 100px;
+}
+
+.main_multistep_container {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+.multistep_container_outer::-webkit-scrollbar {
+    display: none;
+}
+
+// ._3uApM{
+//     display: none !important;
+// }

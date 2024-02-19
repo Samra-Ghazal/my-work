@@ -1,0 +1,148 @@
+.cards{
+    box-sizing: border-box;
+    width: 330px;
+height: 188px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+border: 0.8px solid #DCDCDC;
+border-radius: 8px;
+}
+.box-height{
+    height: 75vh;
+    overflow-y: scroll;
+}
+.subs{
+width: 91px;
+height: 29px;
+left: 209px;
+top: 190px;
+ font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+/* identical to box height, or 180% */
+color: #484848;
+}
+.record{
+    color: #616161;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.8px;
+}
+.subscribe{
+    color: #484848;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.8px;
+}
+.form-check-input{
+    // width: 23px;
+    // height: 23px;
+    left: 0px;
+    top: 0px;
+    // background: #5599FF;
+    border-radius: 6px;
+    }
+    // .form-check-input2{
+    //     width: 19px;
+    //     height: 19px;
+    //     left: 0px;
+    //     top: 0px;
+    //     // background: #5599FF;
+    //     border-radius: 6px;
+    //     border:1px solid #DCDCDC
+    //     }
+.select{
+    color: #616161;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.position{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:20px
+}
+.pro{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 11px;
+color: #313131;
+}
+.twinty{
+    font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 11px;
+font-family: "Roboto", sans-serif;
+text-align: right;
+color: #5599FF;
+}
+.chat{
+/* font-family: roboto, Heebo Medium; */
+font-style: normal;
+font-weight: 600;
+font-style: normal;
+font-size: 15px;
+/* identical to box height, or 180% */
+}
+.four{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+/* line-height: 16px; */
+/* or 132% */
+color: #5599FF;
+}
+.vector{
+    // left: 1.38%;
+right: 97.83%;
+/* top: 81.25%; */
+bottom: 10.03%;
+/* border: 1.2px solid #D5D5D5; */
+}
+.vector1{
+    left: 1.05%;
+right: 95.82%;
+/* top: 81.4%; */
+bottom: 9.88%;
+size: 7rem;
+// background: #D5D5D5;
+// border: 0.2px solid #FFFFFF;
+}
+.button{
+    width: 100%;
+/* height: 34px; */
+background: #5599FF;
+border-radius: 6px;
+}
+.button1{
+box-sizing: border-box;
+width: 100%;
+height: 34px;
+/* left: 556px; */
+border: 1px solid #A9A9A9;
+border-radius: 6px;
+}
+.h1{
+    font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+/* line-height: 29px; */
+/* identical to box height, or 240% */
+text-align: center;
+color: #A9A9A9;
+}

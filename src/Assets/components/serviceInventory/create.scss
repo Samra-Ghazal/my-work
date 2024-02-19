@@ -1,0 +1,69 @@
+
+.col input,
+.col select,
+.col textarea {
+    border: none !important;
+    font-size: 14px;
+    color: gray;
+}
+
+.col input:focus,
+.col select:focus,
+.col textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.input_wrapper {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.input_wrapper label {
+    padding-left: 10px;
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.form-check {
+    padding-left: 45px !important;
+    padding-top: 10px;
+}
+
+.checkbox_lbl {
+    font-size: 14px !important;
+    color: black !important;
+}
+
+.cancel_btn {
+    background-color: lightgray !important;
+}
+
+.service_publish {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white !important;
+}
+
+.form_btns {
+    height: 35px;
+    font-size: 14px !important;
+}
+
+.span_input_url {
+    border-top-right-radius: 25px !important;
+    border-top-left-radius: 0px !important;
+    font-size: 14px !important;
+    color: gray !important;
+    background-color: #e5e5e5 !important;
+}
+
+
+.switch_btn_col_th {
+    width: 50px !important;
+}

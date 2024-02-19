@@ -1,0 +1,249 @@
+.form-container{
+  width:100%;
+  max-width: 1400px;
+  padding-left: 50px;
+  height:100vh;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  margin: auto;
+  overflow: auto;
+}
+.form-container-business{
+  width:100%;
+  max-width: 1400px;
+  padding-left: 50px;
+  height:70vh;
+  padding-right: 50px;
+  margin: auto;
+  overflow: auto;
+  padding-bottom: 180px
+}
+.search-bar-text{
+  // font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color:'#AAAAAA'
+}
+.search-card {
+  width:max-content!important;
+  padding: 20px !important;
+  height: max-content!important;
+  border-radius: 5px !important;
+  color: black !important;
+  background-color: #F5F5F5 !important;
+  padding: 1px !important;
+ 
+}
+.table-container{
+  max-width: 100%;
+  margin: auto;
+  height:80vh;
+}
+.loader{
+  flex:1,
+}
+.perfect-scroll{
+height: 80vh;
+overflow-y: auto;
+}
+.link-hover{
+cursor: pointer;
+
+}
+.type{
+  color: #414141;
+font-family: Barlow;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.link-hover:hover{
+  color:#548dff;
+  font-weight: 600;
+}
+.map-container{
+  max-width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+.spanUser{
+  color:#6B6B6B;
+  
+}
+.tab-container{
+  max-width: 100%;
+  margin: auto;
+}
+// .span{
+// color: #b2b2b2;
+// }
+.spanTerm{
+  color: #C2C2C2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.span2{
+  color: #1e1d1d;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: #1e1d1d;
+  }
+  .businessName{
+    font-size: 18px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .businessId{
+    font-size: 12px;
+    color: #8A8A8A;
+    font-weight: 200;
+  }
+  .bolds{
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    color:#979595
+  }
+  .switch{
+    font-size:"14px";color:#548DFF;font-weight:500
+  }
+  .success{
+background-color: #e7fcf6; 
+color:#13710e;
+padding:5px 10px 5px 10px;
+border-radius: 10px;
+font-weight: 500;
+
+ }
+ .pending{
+  background-color: #fff7ed  ; 
+  color:#fed6a9;
+  padding:5px 10px 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+   }
+   .statusText{ 
+    color:#fff;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+     }
+   .suspended{
+    background-color: #ffb0ad  ; 
+    color:#d8382d;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+     }
+  .arrow{
+    font-size: 30px;
+    color: #b2b2b2;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+input.lager{
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background-color:#9b1d1d ;
+}
+input.lager:checked{
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+}
+
+.permission{
+  color:#548dff;
+  font-size: small;
+  cursor: pointer;
+}
+.permission2{
+  color:#b2b2b2;
+  font-size: small;
+  cursor: pointer;
+
+}
+
+ul.orderlist{
+  text-align: left;
+  font-size: 12px;
+}
+.serviceText{
+  font-size: 14px;
+  font-weight: 400;
+}
+.service{
+  padding: 8px;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  /* width:120px; */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.service:hover{
+  cursor: pointer;
+  background-color: #a5bff5;
+  color:white
+}
+.link{
+  text-decoration: none;
+    color: #999191;
+    font-size: 14px;
+    font-weight: 500;
+}
+.active{
+  border-bottom:2px solid #548dff;
+  text-decoration: none;
+
+}
+.homeIcon{
+  font-size: 16px;
+}
+.link:hover{
+   text-decoration: none;
+    color: #999191;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom:2px solid #548dff;
+}
+.icon{
+  color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-color: #5599FF;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.bold{
+  font-weight: 700;
+  margin-left: 5px;
+}
+.paddings{
+  /* margin-left: 250px; */
+  margin-right: 450px;
+
+   text-align: center;
+}
+.grey-letter{
+  color: #AAA;
+  // font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}

@@ -1,0 +1,34 @@
+@import "../../Assets/Scss/veriables.scss";
+
+.inputFormDiv {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 1%;
+
+  .inputDesign {
+    font-size: $font-14;
+    border-radius: 5px;
+    color: black;
+    // color: $light-gray;
+    border: $border;
+    border-style: dashed;
+    padding: 0.7rem 0.6rem;
+    width: 100%;
+    background: transparent;
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  .errorMessage {
+    font-size: $font-12;
+    color: $red;
+    // position: absolute;
+    // bottom: -21px;
+    line-height: 18px;
+    // left: 10px;
+    text-align: left;
+  }
+}
